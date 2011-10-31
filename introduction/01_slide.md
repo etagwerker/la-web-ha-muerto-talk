@@ -78,9 +78,7 @@
 
 !SLIDE
 
-<div style="text-align:center;display:block;">
-  <img src="ff_webrip_chart2.jpg" alt="Cambio en el Tráfico de Internet. Wired Magazine.">
-</div>
+<img src="ff_webrip_chart2.jpg" alt="Cambio en el Tráfico de Internet. Wired Magazine.">
 
 <!-- 
   
