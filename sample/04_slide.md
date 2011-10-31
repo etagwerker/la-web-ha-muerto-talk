@@ -271,9 +271,13 @@
     // Finalmente! 
     window.App = new AppView;
     
-!SLIDE
+!SLIDE center
 
-<img src="12-backbone-ui.png" alt="Backbone.js UI">
+# Backbone.js UI  #
+
+## Población por Provincia ##
+
+<img src="12-backbone-poblacion-pcia.png" alt="Backbone.js UI">
 
 !SLIDE center
 
@@ -285,15 +289,9 @@
 
 !SLIDE center
 
-# Backbone.js UI #
-
-<img src="12-backbone-ui.png" alt="Backbone.js UI">
-
-!SLIDE center
-
 # Congreso Interactivo #
 
-<img src="13-ejemplo-congreso-interactivo.png" alt="Congreso Interactivo">
+<img src="13-ejemplo-ci.png" width="800px" alt="Congreso Interactivo">
 
 !SLIDE center
 
