@@ -38,13 +38,11 @@
     build_sql_dump(provincia, tipo_de_depto, 
       depto, description, ...)
 
-!SLIDE
+!SLIDE center
 
 ## Expresiones Regulares ##
 
-<div style="text-align:center;display:block;">
-  <img src="7.rubular-example-regex.png" alt="Ejemplo de Expresiones Regulares.">
-</div>
+<img src="7.rubular-example-regex.png" alt="Ejemplo de Expresiones Regulares.">
 
 !SLIDE
 
@@ -120,35 +118,29 @@
           :provincia => sanitize(pcia)).to_json)
     end
 
-!SLIDE
+!SLIDE center
 
 # 2. API #
 
 ## http://censo.heroku.com ##
 
-<div style="text-align:center;display:block;">
-  <img src="8.censo2010-api-v2-0.png" alt="Censo 2010 API v2.0.">
-</div>
+<img src="8.censo2010-api-v2-0.png" alt="Censo 2010 API v2.0.">
 
-!SLIDE
+!SLIDE center
 
 # 2. API #
 
 ## GET /poblacion/buenos_aires/totales ##
 
-<div style="text-align:center;display:block;">
-  <img src="10-get-poblacion-bs-as-totales.png" alt="GET /poblacion/buenos_aires/totales">
-</div>
+<img src="10-get-poblacion-bs-as-totales.png" alt="GET /poblacion/buenos_aires/totales">
 
-!SLIDE
+!SLIDE center
 
 # 2. API #
 
 ## GET /poblacion/buenos_aires ##
 
-<div style="text-align:center;display:block;">
-  <img src="11-poblacion-bs-as-json.png" alt="GET /poblacion/buenos_aires">
-</div>
+<img src="11-poblacion-bs-as-json.png" alt="GET /poblacion/buenos_aires">
 
 !SLIDE bullets incremental
 
@@ -250,10 +242,8 @@
     // Finalmente! 
     window.App = new AppView;
     
-!SLIDE
+!SLIDE center
 
 # Backbone.js UI #
 
-<div style="text-align:center;display:block;">
-  <img src="12-backbone-ui.png" alt="Backbone.js UI">
-</div>
+<img src="12-backbone-ui.png" alt="Backbone.js UI">

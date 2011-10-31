@@ -63,42 +63,32 @@
 
 -->
 
-!SLIDE
+!SLIDE center
 
 ## Ejecución Presupuestaria Nacional ##
 
-<div style="text-align:center;display:block;">
-  <img src="1.captura-pantalla.ejecucion-presupuesto-nacional.png" alt="Presupuesto Nacional">
-</div>
+<img src="1.captura-pantalla.ejecucion-presupuesto-nacional.png" alt="Presupuesto Nacional">
 
-!SLIDE
+!SLIDE center
 
 ## Detalles de Ejecución (Java Applet) ##
 
-<div style="text-align:center;display:block;">
-  <img src="2.captura-pantalla.apple-ejecucion-presupuesto.png" alt="Presupuesto Nacional. Java Applet Hermoso.">
-</div>
+<img src="2.captura-pantalla.apple-ejecucion-presupuesto.png" alt="Presupuesto Nacional. Java Applet Hermoso.">
 
-!SLIDE
+!SLIDE center
 
 ## Cámara de Diputados ##
 
-<div style="text-align:center;display:block;">
-  <img src="3.diputados-screenshot.png" alt="Honorable Concejo Deliberante. Diputados.">
-</div>
+<img src="3.diputados-screenshot.png" alt="Honorable Concejo Deliberante. Diputados.">
 
-!SLIDE
+!SLIDE center
 
 ## Sección de Proyectos en Cámara de Diputados ##
 
-<div style="text-align:center;display:block;">
-  <img src="4.proyectos-de-diputados.png" alt="Proyectos en Cámara de Diputados.">
-</div>
+<img src="4.proyectos-de-diputados.png" alt="Proyectos en Cámara de Diputados.">
 
-!SLIDE
+!SLIDE center
 
 ## Datos del Censo 2010 ##
 
-<div style="text-align:center;display:block;">
-  <img src="5.censo-indec-xlses.png" alt="Datos del INDEC del Censo 2010.">
-</div>
+<img src="5.censo-indec-xlses.png" alt="Datos del INDEC del Censo 2010.">
