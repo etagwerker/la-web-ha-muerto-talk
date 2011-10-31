@@ -49,6 +49,9 @@
 # 1. Scrapeo #
 
     @@@ ruby
+    # Ruby
+    ruby-1.8.7
+    
     # Para scrapear
     gem install hpricot httparty mechanize 
     
@@ -141,6 +144,32 @@
 ## GET /poblacion/buenos_aires ##
 
 <img src="11-poblacion-bs-as-json.png" alt="GET /poblacion/buenos_aires">
+
+!SLIDE
+
+# 2. API #
+
+    @@@ ruby
+    # Ruby
+    ruby-1.9.2
+    
+    # Para API HTTP/JSONP
+    gem install cuba rack-jsonp data_mapper 
+    
+    # Para documentación
+    gem install haml
+    
+    # CSS
+    Bootstrap by Twitter
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## http://github.com/etagwerker/censo2010/tree/v2 ##
 
 !SLIDE bullets incremental
 
@@ -242,8 +271,42 @@
     // Finalmente! 
     window.App = new AppView;
     
+!SLIDE
+
+<img src="12-backbone-ui.png" alt="Backbone.js UI">
+
+!SLIDE center
+
+# Backbone.js UI  #
+
+## Población por Localidad ##
+
+<img src="12a-backbone-ui.png" alt="Backbone.js UI">
+
 !SLIDE center
 
 # Backbone.js UI #
 
 <img src="12-backbone-ui.png" alt="Backbone.js UI">
+
+!SLIDE center
+
+# Congreso Interactivo #
+
+<img src="13-ejemplo-congreso-interactivo.png" alt="Congreso Interactivo">
+
+!SLIDE center
+
+# Gasto Público Bahiense #
+
+## Bahía Blanca ##
+
+<img src="14-gasto-pub-bahiense.png" alt="Gasto Público Bahiense">
+
+!SLIDE center
+
+# Gasto Público Bahiense #
+
+## A dónde va el dinero ##
+
+<img src="15-gpb-graficos.png" alt="Gasto Público Bahiense">
