@@ -1,10 +1,14 @@
-!SLIDE 
+!SLIDE center
 
 <style>
 body {
      font-family: Helvetica, "Gill Sans", Arial, sans-serif;
 }
 </style>
+
+<img src="startechconf-logo.png" alt="Star Tech Conf"/>
+
+<br/>
 
 # La Web ha Muerto #
 
@@ -43,7 +47,9 @@ body {
 
 !SLIDE
 
-# Desarrollador Open Source #
+# Desarrollador #
+
+# Open Source #
 
 !SLIDE bullets incremental
 
