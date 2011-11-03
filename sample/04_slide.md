@@ -133,9 +133,10 @@
 
 # 2. API #
 
-## GET /poblacion/buenos_aires/totales ##
+    GET /poblacion/buenos_aires/totales
 
-<img src="10-get-poblacion-bs-as-totales.png" alt="GET /poblacion/buenos_aires/totales">
+    {"total_mujeres" : 8020503, 
+    "total_varones" : 7604581}
 
 !SLIDE center
 

@@ -1,20 +1,49 @@
 !SLIDE 
-<link href="main.css" media="screen" rel="stylesheet" type="text/css" ></link>
+
+<style>
+body {
+     font-family: Helvetica, "Gill Sans", Arial, sans-serif;
+}
+</style>
+
 # La Web ha Muerto #
 
 ## Larga Vida a la API #
 
-!SLIDE bullets incremental
+!SLIDE 
  
 # Ernesto Tagwerker #
 
-* Ing. Sistemas
+## @etagwerker ##
 
-* Co-Fundador @ Ombu Shop
+!SLIDE
 
-* Rubyista
+# Ing. Sistemas (UTN) #
 
-* Desarrollador Open Source
+<!-- 
+  Ingeniero en Sistemas de la Universidad Tecnológica Nacional de Buenos Aires. 
+-->
+
+!SLIDE center
+
+<img src="ombu-shop-logo-grande-600x146.jpg" alt="Ombu Shop"/>
+
+# Co-Fundador #
+
+<!-- 
+  Co-Fundador de Ombu Shop, Tu Tienda Online en Minutos. Una plataforma para crear tiendas
+  virtuales de una forma simple y flexible. 
+-->
+
+!SLIDE center
+
+<img src="256px-Ruby_logo.svg.png" alt="Ombu Shop">
+
+# Rubyista #
+
+!SLIDE
+
+# Desarrollador Open Source #
 
 !SLIDE bullets incremental
 
