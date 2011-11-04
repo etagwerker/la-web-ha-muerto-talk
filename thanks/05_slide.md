@@ -9,12 +9,10 @@
       "etagwerker/c2010-scrapper"
     
     # Censo 2010 API v2.0
-    # http://censo.heroku.com/
     "http://github.com/" +
       "etagwerker/censo2010/tree/v2"
             
     # Censo 2010 UI
-    # http://bonsai.heroku.com/
     "http://github.com/" +
       "etagwerker/chartly"
     
@@ -32,3 +30,6 @@
 
     # API
     "http://censo.heroku.com"
+
+    # Backbone UI
+    "http://bonsai.heroku.com"
