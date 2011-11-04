@@ -12,20 +12,35 @@ body {
 
 # La Web ha Muerto #
 
-## Larga Vida a la API #
+## Larga Vida a la API ##
+
+### @etagwerker ###
 
 !SLIDE 
  
 # Ernesto Tagwerker #
 
+<!-- 
+
+  Antes de empezar con la charla me gustaría darles una breve introducción. 
+
+-->
+
 ## @etagwerker ##
+
+## #OpenData ##
 
 !SLIDE
 
 # Ing. Sistemas (UTN) #
 
 <!-- 
+
   Ingeniero en Sistemas de la Universidad Tecnológica Nacional de Buenos Aires. 
+  
+  Quizás aquí ya hayan notado mi acento. Les pido por favor que guarden sus bromas
+   (y preguntas) para el final de la charla. Gracias! :)
+   
 -->
 
 !SLIDE center
@@ -35,8 +50,10 @@ body {
 # Co-Fundador #
 
 <!-- 
+
   Co-Fundador de Ombu Shop, Tu Tienda Online en Minutos. Una plataforma para crear tiendas
   virtuales de una forma simple y flexible. 
+  
 -->
 
 !SLIDE center
@@ -45,22 +62,38 @@ body {
 
 # Rubyista #
 
+<!-- 
+
+  Hace años que utilizo y disfruto programando en Ruby, tanto aplicaciones web, como APIs,
+  como scrapers.  
+
+-->
+
 !SLIDE
 
 # Desarrollador #
 
 # Open Source #
 
-!SLIDE bullets incremental
-
-# #OpenData #
-
 <!-- 
-  La idea de que ciertos datos estén disponibles y libres de uso y republicación, sin problemas de copyright o patentes.
-  Esta charla se centra en OpenData centrado en el gobierno de Argentina. 
+
+  Hace solo 3 años que contribuyo a proyectos open source, como una forma de contribuir
+  a la comunidad y como una forma de aprendizaje. 
+
 -->
 
-* Qué está mal
+!SLIDE bullets
+
+# Open Data #
+
+<!-- 
+
+  La idea de que ciertos datos estén disponibles y libres de uso y republicación, sin problemas de copyright o patentes.
+  Esta charla se centra en OpenData centrado en el gobierno de Argentina. 
+
+-->
+
+## 1. Qué está mal ##
 
 <!-- 
   
@@ -70,7 +103,7 @@ body {
 
 -->
 
-* Qué podemos hacer
+## 2. Qué podemos hacer ##
 
 <!-- 
   
@@ -81,7 +114,7 @@ body {
 
 -->
 
-* Censo 2010 API (Argentina)
+## 3. Censo 2010 API (Argentina) ##
 
 <!-- 
 
@@ -92,6 +125,10 @@ body {
   disponibles para scrapear un sitio, armar una API y consumirla. 
 
 -->
+
+!SLIDE 
+
+# 1. Qué está mal #
 
 !SLIDE 
 
@@ -106,8 +143,8 @@ body {
   Un artículo muy controversial de Chris Anderson, autor de The Long Tail y Free, que menciona
   la disminución del uso de la Web para acceder al contenido disponible en Internet. 
   
-  La idea de aplicarlo al Gobierno es decir: ¿Por qué siguen construyendo sitios web horribles? 
-  (Si el futuro nos indica que el acceso al contenido en Internet no va a ser predominantemente Web)
+  La idea de aplicarlo al Gobierno es decir: ¿Por qué siguen construyendo sitios web? 
+  (Si el futuro nos indica que el acceso al contenido en Internet NO va a ser predominantemente Web)
 
 -->
 
@@ -118,7 +155,7 @@ body {
 <!-- 
   
   Este es un gráfico del artículo de Chris Anderson que muestra que el acceso al contenido
-  viene decreciendo desde 2000 hasta un 20% de todo el tráfico en Internet. 
+  VIA WEB viene decreciendo desde 2000 hasta un 20% de todo el tráfico en Internet. 
   
 -->
 

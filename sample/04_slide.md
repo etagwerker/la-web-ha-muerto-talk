@@ -38,12 +38,6 @@
     build_sql_dump(provincia, tipo_de_depto, 
       depto, description, ...)
 
-!SLIDE center
-
-## Expresiones Regulares ##
-
-<img src="7.rubular-example-regex.png" alt="Ejemplo de Expresiones Regulares.">
-
 !SLIDE
 
 # 1. Scrapeo #
@@ -66,27 +60,6 @@
 <br/>
 
 ## http://github.com/etagwerker/c2010-scrapper ##
-      
-!SLIDE
-
-# 2. API #
-
-    @@@ ruby
-    
-    # GET /departamentos    
-    Cuba.define do
-      on get do
-        res['Content-Type'] = 'application/json'
-
-        on "departamentos" do
-          res.write Departamento.all(
-              :fields => [:nombre], 
-              :unique => true, 
-              :order => :nombre.asc).map { |d| 
-            as_record(d.nombre) }.to_json
-        end
-      end
-    end
 
 !SLIDE
 
@@ -120,14 +93,6 @@
         Departamento.population_totals_for(
           :provincia => sanitize(pcia)).to_json)
     end
-
-!SLIDE center
-
-# 2. API #
-
-## http://censo.heroku.com ##
-
-<img src="8.censo2010-api-v2-0.png" alt="Censo 2010 API v2.0.">
 
 !SLIDE center
 
@@ -172,7 +137,7 @@
 
 ## http://github.com/etagwerker/censo2010/tree/v2 ##
 
-!SLIDE bullets incremental
+!SLIDE bullets
 
 # 3. Visualización #
 
@@ -182,7 +147,7 @@
 
 * Batman.js
 
-!SLIDE bullets incremental
+!SLIDE bullets
 
 # 3. Visualización #
 
@@ -208,44 +173,6 @@
               + tidy_id(this.get('id')) 
               + "/totales?callback=?";  
         }, ...
-      
-!SLIDE 
-
-# 3. Visualización #
-
-    @@@ javascript
-
-    // Modelo de Departamento
-    window.Departamento = 
-      Backbone.Model.extend({
-        population_url: function() {
-          var pcia = this.get('provincia');
-          return '/poblacion/' 
-              + tidy_id(pcia.get('id')) + '/' 
-              + tidy_id(this.get('id')) 
-              + "/totales?callback=?";  
-        }, ...
-
-!SLIDE 
-
-# 3. Visualización #
-
-    @@@ javascript
-
-    // Vista de Población de Provincia
-    window.ProvinciaPopulationView = 
-    Backbone.View.extend({
-      population_graph: function(population) {
-        ...
-        var chart = 
-          new google.visualization.PieChart(el);
-        var area = population.get('area');
-        chart.draw(data, {title: 
-            'Personas en ' + area.get('nombre') });
-      }, ...
-      
-      window.AppView = Backbone.View.extend({
-        el: $("#charts-app"),
 
 !SLIDE 
 

@@ -25,7 +25,7 @@
     @@@ ruby 
   
     # Twitter
-    @_nesto
+    @etagwerker
 
     # Github
     "http://github.com/etagwerker"
