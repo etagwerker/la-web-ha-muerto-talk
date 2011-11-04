@@ -114,8 +114,6 @@ body {
 
 -->
 
-## 3. Censo 2010 API (Argentina) ##
-
 <!-- 
 
   Cómo se puede armar una API usando Ruby, Rubygems e ingeniería reversa sobre sitios existentes
